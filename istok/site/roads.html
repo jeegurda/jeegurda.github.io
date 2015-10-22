@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html data-modules='map roads gallery'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=Edge, chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, user-scalable=no, initial-scale=1' name='viewport'>
+    <link href='images/favicon.png' rel='icon' type='image/x-icon'>
+    <title>Istokskiy</title>
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
+    <script src='js/init.js'></script>
+    <!--[if IE 9]>
+      <link href='css/ie9.css' rel='stylesheet' type='text/css'>
+    <![endif]-->
+  </head>
+  <body class='inner roads roads-overlay-visible'>
+    <div class='page-wrapper'>
+      <main>
+        <header class='header'>
+          <div class='container padded justify'>
+            <a class='h-logo' href=''>
+              <img alt='' class='hl-index' src='images/logo_istok.png'>
+              <img alt='' class='hl-inner' src='images/logo_istok_inner.png'>
+            </a>
+            <nav class='h-nav justify'>
+              <div class='hn-inner'>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Location</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Infrastructure</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Project structure</span>
+                  </a>
+                </div>
+                <div class='has-nested hn-cell'>
+                  <a href=''>
+                    <span>Influence</span>
+                  </a>
+                  <div class='h-nav-nested'>
+                    <a href=''>
+                      <span>Traffic system</span>
+                    </a>
+                    <a href=''>
+                      <span>Road network</span>
+                    </a>
+                    <a href=''>
+                      <span>Work places</span>
+                    </a>
+                    <a href=''>
+                      <span>Ecology</span>
+                    </a>
+                  </div>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Investment<br>opportunities</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Contacts</span>
+                  </a>
+                </div>
+              </div>
+              <div class='hn-cell'>
+                <a class='h-lang' href=''>
+                  <span>Ru</span>
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div class='h-submenu'></div>
+        </header>
+        <div class='full-page-content fullscreen'>
+          <div class='infrastructure-filter-container container padded'>
+            <div class='map-zoom fullscreen'>
+              <div class='mz-inner'>
+                <div class='mz-container'>
+                  <span class='mz-out'></span>
+                  <div class='mz-range'>
+                    <span class='mz-level'></span>
+                  </div>
+                  <span class='mz-in'></span>
+                  <div class='mz-indicator'>Zoom
+                  <br><span class='mzi-number'>100</span>%</div>
+                </div>
+              </div>
+              <div class='ic-links gallery'>
+                <a class='ic-more' href='swfNDRxpRLg'>Learn<br>more</a>
+              </div>
+            </div>
+            <div class='map-legend fullscreen'>
+              <div class='ml-inner'>
+                <div class='ml-container'>
+                  <p>Roads</p>
+                  <ul>
+                    <li class='ml-0'>Traffic-free walkway</li>
+                    <li class='ml-1'>Arterial streets</li>
+                    <li class='ml-2'>Highways</li>
+                    <li class='ml-3'>Istoksky main roads</li>
+                    <li class='ml-4'>Siberian Route and Yekaterinburg beltway</li>
+                  </ul>
+                  <p>Transport hubs</p>
+                  <ul>
+                    <li class='ml-10'>New</li>
+                    <li class='ml-11'>Reconstruction</li>
+                    <li class='ml-12'>New cross-over</li>
+                    <li class='ml-13'>Interconnect</li>
+                  </ul>
+                </div>
+              </div>
+              <div class='ml-toggle'>
+                <div class='mlt-hide'>Hide description</div>
+                <div class='mlt-show'>Show description</div>
+              </div>
+            </div>
+          </div>
+          <div class='map-container'>
+            <div class='map-inner'>
+              <div class='map'>
+                <img alt='' class='map-image' src='images/map_traffic.png'>
+                <img alt='' class='map-stretch map-drag-element' src='images/map_roads.png'>
+                <div class='map-stretch map-nested'>
+                  <img alt='' class='map-stretch' src='images/map_roads_overlay.png'>
+                  <div class='mn-pin mn-0' style='left: 67.1417%; top: 48.205%;'>≈ 6 km</div>
+                  <div class='mn-pin mn-1' style='left: 31.401%; top: 31.2039%;'>≈ 11 km</div>
+                </div>
+                <div class='pin p-2' style='left: 3.4%; top: 9.7%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Yekaterinburg Downtown</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-6' style='left: 12.8%; top: 82%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Ski resort "Uktus"</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-4' style='left: 53.3%; top: 38.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Yekaterinburg beltway</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-4' style='left: 43.9%; top: 39.1%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Siberian Route</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-0' style='left: 50.5%; top: 19.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>R&D Tech park<br>"Universitetsky" (project)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-1' style='left: 52.9%; top: 17.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Ural Federal University<br>Campus (project)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class='mn-close'></span>
+            </div>
+          </div>
+        </div>
+        <section class='inner-overlay io-gallery'>
+          <div class='gallery-container'>
+            <header>
+              <div class='dt'>
+                <div class='dtc gallery-title'></div>
+              </div>
+            </header>
+            <div class='gallery-image'></div>
+            <footer>
+              <div class='dt'>
+                <div class='dtc gallery-text'></div>
+              </div>
+            </footer>
+            <span class='gallery-prev' title='Previous image'>
+              <span></span>
+            </span>
+            <span class='gallery-next' title='Next image'>
+              <span></span>
+            </span>
+            <span class='g-close' title='Close'></span>
+          </div>
+        </section>
+      </main>
+      <footer class='footer'>
+        <div class='container padded justify'>
+          <div class='f-left'>
+            <a class='f-logo' href='http://mon-arch.ru/' target='_blank'>
+              <img alt='' src='images/logo_monarch.png'>
+            </a>
+            <div class='f-slider'>
+              <div class='fs-container'>
+                <a class='fs-item' href=''>
+                  <div class='fs-date'>2015.03.21</div>
+                  <div class='fs-text'>Istokskiy is winner of MIPIM AWARDS 2015. Congratulations!</div>
+                </a>
+                <a class='fs-item' href=''>
+                  <div class='fs-date'>2015.03.21</div>
+                  <div class='fs-text'>Istokskiy is winner of MIPIM AWARDS 2015. Congratulations!</div>
+                </a>
+              </div>
+              <span class='fs-prev'></span>
+              <span class='fs-next'></span>
+            </div>
+          </div>
+          <div class='f-right'>
+            <div class='f-phones-narrow -n-ib'>
+              <div class='fpn-number'>
+                <p>+7 499 564-18-91</p>
+                <p>+7 495 234-00-11</p>
+              </div>
+              <ul class='fpn-tabs'>
+                <li>
+                  <span>Sales</span>
+                </li>
+                <li>
+                  <span>Investments</span>
+                </li>
+              </ul>
+            </div>
+            <div class='f-phones-wide -w-ib'>
+              <div class='fpw-item'>
+                <p>+7 495 234-00-11</p>
+                <span>Department of sales</span>
+              </div>
+              <div class='fpw-item'>
+                <p>+7 495 234-00-11</p>
+                <span>Department of investments</span>
+              </div>
+            </div>
+            <a class='f-studio' href='http://studio-v.ru' target='_blank'></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

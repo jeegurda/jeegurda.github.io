@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html data-modules='map traffic'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=Edge, chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, user-scalable=no, initial-scale=1' name='viewport'>
+    <link href='images/favicon.png' rel='icon' type='image/x-icon'>
+    <title>Istokskiy</title>
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
+    <script src='js/init.js'></script>
+    <!--[if IE 9]>
+      <link href='css/ie9.css' rel='stylesheet' type='text/css'>
+    <![endif]-->
+  </head>
+  <body class='inner traffic'>
+    <div class='page-wrapper'>
+      <main>
+        <header class='header'>
+          <div class='container padded justify'>
+            <a class='h-logo' href=''>
+              <img alt='' class='hl-index' src='images/logo_istok.png'>
+              <img alt='' class='hl-inner' src='images/logo_istok_inner.png'>
+            </a>
+            <nav class='h-nav justify'>
+              <div class='hn-inner'>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Location</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Infrastructure</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Project structure</span>
+                  </a>
+                </div>
+                <div class='has-nested hn-cell'>
+                  <a href=''>
+                    <span>Influence</span>
+                  </a>
+                  <div class='h-nav-nested'>
+                    <a href=''>
+                      <span>Traffic system</span>
+                    </a>
+                    <a href=''>
+                      <span>Road network</span>
+                    </a>
+                    <a href=''>
+                      <span>Work places</span>
+                    </a>
+                    <a href=''>
+                      <span>Ecology</span>
+                    </a>
+                  </div>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Investment<br>opportunities</span>
+                  </a>
+                </div>
+                <div class='hn-cell'>
+                  <a href=''>
+                    <span>Contacts</span>
+                  </a>
+                </div>
+              </div>
+              <div class='hn-cell'>
+                <a class='h-lang' href=''>
+                  <span>Ru</span>
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div class='h-submenu'></div>
+        </header>
+        <div class='full-page-content fullscreen'>
+          <div class='infrastructure-filter-container container padded'>
+            <div class='infrastructure-filter fullscreen'>
+              <div class='if-inner'>
+                <div class='if-container'>
+                  <div class='if-reel'>
+                    <div class='if-40 if-item' data-route-type='40'>
+                      <div class='if-text'>
+                        <span>Автобус</span>
+                      </div>
+                      <div class='if-bg'></div>
+                    </div>
+                    <div class='if-41 if-item' data-route-type='41'>
+                      <div class='if-text'>
+                        <span>Троллейбус</span>
+                      </div>
+                      <div class='if-bg'></div>
+                    </div>
+                    <div class='if-42 if-item' data-route-type='42'>
+                      <div class='if-text'>
+                        <span>Электричка</span>
+                      </div>
+                      <div class='if-bg'></div>
+                    </div>
+                    <div class='if-43 if-item' data-route-type='43'>
+                      <div class='if-text'>
+                        <span>Скоростной транспорт</span>
+                      </div>
+                      <div class='if-bg'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class='map-zoom fullscreen'>
+              <div class='mz-inner'>
+                <div class='mz-container'>
+                  <span class='mz-out'></span>
+                  <div class='mz-range'>
+                    <span class='mz-level'></span>
+                  </div>
+                  <span class='mz-in'></span>
+                  <div class='mz-indicator'>Zoom
+                  <br><span class='mzi-number'>100</span>%</div>
+                </div>
+              </div>
+              <div class='ic-links'>
+                <span class='ic-more'>Learn<br>more</span>
+              </div>
+              <div class='map-more'>
+                <span class='mm-close'></span>
+                <article>As well as the human traffic a vehicular traffic was taken into account in the master plan of Istoksky. There will be constructed more than 200km of new roads, 5 highway junctions (includes elevated interchanges), crossovers and reconstructed 4 existing road junction. The new road network will be carefully fit into existing network to avoid any traffic issues.</article>
+              </div>
+            </div>
+          </div>
+          <div class='map-container'>
+            <div class='map-inner'>
+              <div class='map'>
+                <img alt='' class='map-image' src='images/map_traffic.png'>
+                <img alt='' class='map-stretch' src='images/map_traffic_roads_overlay.png'>
+                <img alt='' class='map-stretch route' data-route-type='40' src='images/map_traffic_1.png'>
+                <img alt='' class='map-stretch route' data-route-type='41' src='images/map_traffic_2.png'>
+                <img alt='' class='map-stretch route' data-route-type='42' src='images/map_traffic_3.png'>
+                <img alt='' class='map-stretch route' data-route-type='43' src='images/map_traffic_4.png'>
+                <img alt='' class='map-stretch map-drag-element' src='images/map_traffic_overlay.png'>
+                <div class='pin p-2' style='left: 3.4%; top: 9.7%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Yekaterinburg Downtown</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-6' style='left: 12.8%; top: 82%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Ski resort "Uktus"</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-4' style='left: 53.3%; top: 38.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Yekaterinburg beltway</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-4' style='left: 43.9%; top: 39.1%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Siberian Route</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-0' style='left: 50.5%; top: 19.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>R&D Tech park<br>"Universitetsky" (project)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='pin p-1' style='left: 52.9%; top: 17.4%;'>
+                  <div class='p-container'>
+                    <div class='p-inner'>
+                      <div class='p-content'>
+                        <div class='p-icon'></div>
+                        <div class='p-text-cropper'>
+                          <div class='p-text'>Ural Federal University<br>Campus (project)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='label traffic centered' style='left: 17.8%; top: 11.4%;'>
+                  <div class='l-inner'>
+                    <div>
+                      <p>Transport Hub</p>
+                      <span class='lt-1'></span>
+                      <span class='lt-2'></span>
+                      <span class='lt-4'></span>
+                    </div>
+                  </div>
+                </div>
+                <div class='label traffic centered' style='left: 56%; top: 13.3%;'>
+                  <div class='l-inner'>
+                    <div>
+                      <p>Transport Hub</p>
+                      <span class='lt-1'></span>
+                      <span class='lt-2'></span>
+                      <span class='lt-4'></span>
+                    </div>
+                  </div>
+                </div>
+                <div class='label traffic centered' style='left: 79.6%; top: 45.5%;'>
+                  <div class='l-inner'>
+                    <div>
+                      <p>Transport Hub</p>
+                      <span class='lt-1'></span>
+                      <span class='lt-2'></span>
+                      <span class='lt-4'></span>
+                    </div>
+                  </div>
+                </div>
+                <div class='label traffic centered' style='left: 88.8%; top: 79.6%;'>
+                  <div class='l-inner'>
+                    <div>
+                      <p>Transport Hub</p>
+                      <span class='lt-1'></span>
+                      <span class='lt-3'></span>
+                    </div>
+                  </div>
+                </div>
+                <div class='label traffic centered' style='left: 56.3%; top: 91.2%;'>
+                  <div class='l-inner'>
+                    <div>
+                      <p>Transport Hub</p>
+                      <span class='lt-1'></span>
+                      <span class='lt-4'></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class='footer'>
+        <div class='container padded justify'>
+          <div class='f-left'>
+            <a class='f-logo' href='http://mon-arch.ru/' target='_blank'>
+              <img alt='' src='images/logo_monarch.png'>
+            </a>
+            <div class='f-slider'>
+              <div class='fs-container'>
+                <a class='fs-item' href=''>
+                  <div class='fs-date'>2015.03.21</div>
+                  <div class='fs-text'>Istokskiy is winner of MIPIM AWARDS 2015. Congratulations!</div>
+                </a>
+                <a class='fs-item' href=''>
+                  <div class='fs-date'>2015.03.21</div>
+                  <div class='fs-text'>Istokskiy is winner of MIPIM AWARDS 2015. Congratulations!</div>
+                </a>
+              </div>
+              <span class='fs-prev'></span>
+              <span class='fs-next'></span>
+            </div>
+          </div>
+          <div class='f-right'>
+            <div class='f-phones-narrow -n-ib'>
+              <div class='fpn-number'>
+                <p>+7 499 564-18-91</p>
+                <p>+7 495 234-00-11</p>
+              </div>
+              <ul class='fpn-tabs'>
+                <li>
+                  <span>Sales</span>
+                </li>
+                <li>
+                  <span>Investments</span>
+                </li>
+              </ul>
+            </div>
+            <div class='f-phones-wide -w-ib'>
+              <div class='fpw-item'>
+                <p>+7 495 234-00-11</p>
+                <span>Department of sales</span>
+              </div>
+              <div class='fpw-item'>
+                <p>+7 495 234-00-11</p>
+                <span>Department of investments</span>
+              </div>
+            </div>
+            <a class='f-studio' href='http://studio-v.ru' target='_blank'></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
