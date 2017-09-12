@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>select</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Appointment-02" transform="translate(-1215.000000, -147.000000)" fill="#000000">
+            <g id="Group-2" transform="translate(990.000000, 132.000000)">
+                <path d="M241.646447,15.6464466 L233.646447,23.6464466 L234.353553,23.6464466 L226.353553,15.6464466 L225.646447,16.3535534 L233.646447,24.3535534 L234,24.7071068 L234.353553,24.3535534 L242.353553,16.3535534 L241.646447,15.6464466 L241.646447,15.6464466 Z" id="select"></path>
+            </g>
+        </g>
+    </g>
+</svg>
